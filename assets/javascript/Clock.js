@@ -21,7 +21,7 @@ class Clock {
             let m = date.getMinutes();
             let s = date.getSeconds();
 
-            let text = h + ":" + m + ":" + s;
+            let text = `${h}:${m}:${s}`;
 
             this.clockElement.innerHTML = text;
         }
