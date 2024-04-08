@@ -1,0 +1,25 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#clock {
+    transition: all 0.1s linear;
+}
+
+button {
+    width: 120px;
+    height: 80px;
+    border: 0;
+    background-color: #ccc;
+    transition: all 0.02s linear;
+}
+
+button:hover {
+    background-color: #999;
+}
+
+main {
+    margin: auto;
+}
